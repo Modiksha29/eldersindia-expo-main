@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro",
+      "build": {
+        "babel": {
+          "include": [
+            "@ui-kitten/components"
+          ]
+        }
+      }
+    },
+    "name": "eldersindia",
+    "slug": "eldersindia",
+    "extra": {
+      "eas": {
+        "projectId": "ad4712b0-693f-4bb6-895c-4f15210664b0"
+      }
+    },
+    "owner": "tharsha-ventures",
+    "android": {
+      "package": "com.tharshaventures.eldersindia"
+    },
+    "ios": {
+      "bundleIdentifier": "com.tharshaventures.eldersindia",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to upload the images."
+      }
+    }
+  }
+}
